@@ -1,0 +1,30 @@
+{
+  "name": "photoshop-client",
+  "version": "0.0.1",
+  "description": "A client library to communicate with Photoshop over remote connections.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "photoshop",
+    "client",
+    "photoshop client",
+    "remote connection",
+    "kvlr",
+    "kevlar",
+    "extendscript",
+    "typescript"
+  ],
+  "author": "Brennan Cheung",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
